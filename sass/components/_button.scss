@@ -9,6 +9,7 @@
 		transition: 0.2s;
 		position: relative;
 		font-size: $default-font-sise;
+		
 	}
 	&:hover {
 		transform: translateY(-3px);
@@ -25,10 +26,18 @@
 	}
 	&--white {
 		background-color: $color-white;
-		counter-reset: $color-gray-dark;
+		color: $color-gray-dark;
 
 		&::after {
 			background-color: $color-white;
+		}
+	}
+	&--green {
+		background-color: $color-primary;
+		color: $color-white;
+
+		&::after {
+			background-color: $color-primary;
 		}
 	}
 

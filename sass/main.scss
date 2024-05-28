@@ -6,12 +6,13 @@
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
-@import "base/base";
+
 
 @import "pages/home";
 
 @import "components/button";
-@import "components/_feature-box";
+@import "components/_card";
+@import "components/feature-box";
 @import "components/composition";
 
 @import "layout/header";
