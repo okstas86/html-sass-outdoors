@@ -14,6 +14,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden; 
     border-radius: 3px;
     overflow: hidden;
@@ -144,8 +145,9 @@
   }
 
 
-  @include respond(tab-port){
-
+  // @include respond(tab-port){
+    @media only screen and (max-width: 56.25em),
+    only screen and (hover:none){
  
     height: auto;
     border-radius: 3px;
